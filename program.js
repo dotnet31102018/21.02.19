@@ -25,3 +25,16 @@ do
   }
 while(x1 != 0)
   alert(sum)
+  
+  
+  
+var sum2 = 0
+var number = parseInt(prompt("Enter number", 0))
+while (number >=0 )
+  {
+    sum2 = sum2 + number
+    number = parseInt(prompt("Enter number"), 0)
+  }
+alert(sum2)
+  
+  
