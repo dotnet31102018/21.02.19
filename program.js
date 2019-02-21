@@ -15,3 +15,13 @@ else
   {
     alert(y)
   }
+
+
+var sum = 0
+do
+  {
+    var x1 = parseInt( prompt("Please enter number", 0) )
+    sum = sum + x1
+  }
+while(x1 != 0)
+  alert(sum)
